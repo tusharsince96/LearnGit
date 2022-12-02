@@ -1,0 +1,33 @@
+1) understand gs.eventqueue fn (docs)
+2) whenever the priority changes trigger an email to assign to and caller 
+3) whenever the assignment group changes, 
+the notification should be sent to both prev assignment group and current assignment group
+
+Note:   subject- inc number 
+	msg- short decs, desc and create one link which auto redirect to that inc (URI link)
+
+----------------------
+Subject: Incident Inc001 priority changed
+
+-----------------------
+
+Sample Email Body: 
+--------------------------------------------------
+Header: KPMG Logo
+
+Hello Khushboo (Assigned_to.first_name),
+
+Priority changed to 1-High (priority)
+
+Incident Number: INC001
+Short Description: email issue
+Description: Email big issue
+
+URI_Link
+
+
+Footer: please do noit reply to this email
+-------------------------------------------------
+
+Note: my header and footer should contain KPMG logo in every email
+      in footer mention: please do noit reply to this email
